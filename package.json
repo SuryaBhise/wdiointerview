@@ -1,0 +1,29 @@
+{
+  "name": "wdiowithcucumbertsfclario",
+  "version": "1.0.0",
+  "description": "Clario Login with Cucumber and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.ts",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "cucumber",
+    "nodejs"
+  ],
+  "author": "Surya Bhise",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.32.2"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.32.2",
+    "@wdio/cucumber-framework": "^8.32.2",
+    "@wdio/local-runner": "^8.32.2",
+    "@wdio/spec-reporter": "^8.32.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
